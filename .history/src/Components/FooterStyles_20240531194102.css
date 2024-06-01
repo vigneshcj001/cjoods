@@ -1,0 +1,28 @@
+/* FooterStyles.css */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    margin: 0;
+    color: #fff; /* Setting text color to white for visibility */
+}
+
+.footer-heart {
+    color: red;
+}
+
+.footer-cj {
+    color: #fff; /* Ensuring the text color is white for visibility */
+}
+
+.footer-link {
+    color: #fff; /* Ensuring the link color is white for visibility */
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

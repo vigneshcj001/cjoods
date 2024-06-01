@@ -1,0 +1,51 @@
+/* FooterStyles.css */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40; /* Ensure the background color is consistent */
+    color: black; /* Set the default text color to black */
+}
+
+.footer-container {
+    background-color: #ccc; /* Set a background color for contrast if needed */
+    padding: 1rem; /* Add padding for spacing */
+}
+
+.footer-content {
+    margin: 0;
+    color: black; /* Ensure the footer text color is black */
+}
+
+.footer-heart {
+    color: red; /* Set the heart color to red */
+}
+
+.footer-cj {
+    color: black; /* Ensure the text color is black */
+}
+
+.footer-link {
+    color: black; /* Ensure the link text color is black */
+    text-decoration: none; /* Remove underline from link */
+}
+
+.footer-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Ensure the page content takes full height to push the footer to the bottom */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.footer {
+    margin-top: auto;
+}

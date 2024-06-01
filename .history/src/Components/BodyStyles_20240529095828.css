@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Slab:wght@500&family=Ysabeau+Office:wght@600&display=swap');
+.body {
+  display: flex;
+  padding: 60px 50px;
+}
+
+.animation-content{
+    font-size: 3rem;
+}

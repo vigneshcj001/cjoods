@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Roboto+Slab:wght@500&family=Ysabeau+Office:wght@600&display=swap');
+.rest-container {
+  padding: 100px 20px; /* Adjusted padding for better spacing */
+}
+.food-title{
+  font-weight:600;
+}
+
+.food-title:hover:before {
+  content: "CJ";
+  color: #009aff;
+}
+
+.horizontal-line {
+  border: 1px solid #eef0f5;
+  width: 100%;
+}

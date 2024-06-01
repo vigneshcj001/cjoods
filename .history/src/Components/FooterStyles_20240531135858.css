@@ -1,0 +1,32 @@
+/* FooterStyles.css */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+}
+
+.footer-content {
+    margin: 0;
+}
+
+.footer-heart {
+    color: red;
+}
+
+/* Ensure the page content takes full height to push the footer to the bottom */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.footer {
+    margin-top: auto;
+}

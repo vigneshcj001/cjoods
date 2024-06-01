@@ -1,0 +1,31 @@
+/* FooterStyles.css */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-content {
+    margin: 0;
+    color: black;
+    font-size: medium;
+}
+
+.footer-heart {
+    color: red; 
+}
+
+.footer-cj {
+    color: black; 
+}
+
+.footer-link {
+    color: black; 
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline; 
+}
+

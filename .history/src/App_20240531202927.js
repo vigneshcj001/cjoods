@@ -10,7 +10,7 @@ const AppLayout = () => {
             <Header />
             <Body />
             <RestaurantSection/>
-        
+            <Footer/>
         </div>
     );
 };

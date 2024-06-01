@@ -1,0 +1,15 @@
+/* FooterStyles.css */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    margin: 0;
+}
+
+.footer-heart {
+    color: red;
+}
+
